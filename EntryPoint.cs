@@ -4,6 +4,7 @@ using ExtraObjectiveSetup.Utils;
 using ExtraObjectiveSetup.JSON;
 using GTFO.API;
 using HarmonyLib;
+using ExtraObjectiveSetup.JSON.MTFOPartialData;
 
 namespace EOSExt.EnvTemperature
 {
@@ -18,7 +19,7 @@ namespace EOSExt.EnvTemperature
     {
         public const string AUTHOR = "Inas";
         public const string PLUGIN_NAME = "EOSExt.EnvTemperature";
-        public const string VERSION = "1.0.3";
+        public const string VERSION = "1.0.4";
 
         private Harmony m_Harmony;
 

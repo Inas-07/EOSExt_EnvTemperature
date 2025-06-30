@@ -17,7 +17,7 @@ namespace EOSExt.EnvTemperature
 
         protected override string DEFINITION_NAME => "EnvTemperature";
 
-        public static readonly TemperatureZoneDefinition DEFAULT_ZONE_DEF = new TemperatureZoneDefinition() { FluctuationIntensity = 0.0f };
+        public static readonly TemperatureZoneDefinition DEFAULT_ZONE_DEF = new TemperatureZoneDefinition() { FluctuationIntensity = 0.0025f };
 
         public const float MIN_TEMP = 0.005f;
 

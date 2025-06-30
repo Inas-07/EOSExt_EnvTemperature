@@ -273,6 +273,10 @@ namespace EOSExt.EnvTemperature.Components
                 temp_downlimit = zoneTempDef.Temperature_Downlimit;
                 temp_uplimit = zoneTempDef.Temperature_Uplimit;
             }
+            else
+            {
+                zoneTempDef = TemperatureDefinitionManager.DEFAULT_ZONE_DEF;
+            }
 
             if (Math.Abs(actionTempDelta) < 1e-5)
             {
