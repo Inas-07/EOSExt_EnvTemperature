@@ -1,7 +1,6 @@
 ﻿using EOSExt.EnvTemperature.Definitions;
 using EOSExt.EnvTemperature.Patches;
 using ExtraObjectiveSetup.Utils;
-using FloLib.Infos;
 using GameData;
 using GTFO.API;
 using Il2CppInterop.Runtime.Injection;
