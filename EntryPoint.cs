@@ -19,7 +19,7 @@ namespace EOSExt.EnvTemperature
     {
         public const string AUTHOR = "Inas";
         public const string PLUGIN_NAME = "EOSExt.EnvTemperature";
-        public const string VERSION = "1.0.4";
+        public const string VERSION = "1.1.0";
 
         private Harmony m_Harmony;
 
