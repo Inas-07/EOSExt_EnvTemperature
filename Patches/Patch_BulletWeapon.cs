@@ -2,7 +2,6 @@
 using ExtraObjectiveSetup.Utils;
 using Gear;
 using HarmonyLib;
-using FloLib.Infos;
 using EOSExt.EnvTemperature.Definitions;
 using GTFO.API;
 using System.Collections.Generic;
